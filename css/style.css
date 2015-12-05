@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  max-width: 100%;
+  font-family: sans-serif;
+}
+
+.container {
+  min-height: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.game-wrap {
+  position: relative;
+  padding: 20px 0 0;
+}
+
+.content {
+  color: #111;
+  text-align: center;
+  padding: 0 20px;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 18px;
+  line-height: 1.5em;
+}
