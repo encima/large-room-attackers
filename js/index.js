@@ -18,6 +18,7 @@
             this.maxLives = Config.maxLives;
             this.binding();
             this.player = new Player();
+			//this.laser = new Audio('audio/laser.mp3');
             this.score = 0;
             this.shooting = false;
             this.isGameOver = false;
@@ -78,6 +79,7 @@
         buttonDown: function(e) {
             if (e.keyCode === Config.keys.shoot) {
                 Game.shooting = true;
+				//Game.laser.play();
             }
             if (e.keyCode === Config.keys.left || e.keyCode === Config.keys.leftArrow) {
                 Game.player.movingLeft = true;
