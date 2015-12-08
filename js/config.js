@@ -23,7 +23,7 @@ var Config = {
         height: 30,
         width: 10,
         speed: 5,
-        colour: "white"
+        colour: "green"
     },
     enemy: {
         width: 60,

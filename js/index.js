@@ -244,7 +244,7 @@
 
     // Player's shoot function.
     Player.prototype.shoot = function() {
-        Game.bullets.push(new Bullet(this.x + this.width / 2, Game.canvas.height - Config.player.height, this.colour, Game.bullets.length, this));
+        Game.bullets.push(new Bullet(this.x + this.width / 2, Game.canvas.height - Config.player.height, Config.bullet.colour, Game.bullets.length, this));
     };
 
     /*
