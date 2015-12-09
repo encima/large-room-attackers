@@ -69,7 +69,7 @@
             if (e.keyCode === Config.keys.left || e.keyCode === Config.keys.leftArrow) {
                 Game.player.movingLeft = false;
             }
-            if (e.keyCode === Config.keys.right || e.keyCode === Config.rightArrow) {
+            if (e.keyCode === Config.keys.right || e.keyCode === Config.keys.rightArrow) {
                 Game.player.movingRight = false;
             }
         },

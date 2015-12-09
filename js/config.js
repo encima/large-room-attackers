@@ -6,10 +6,10 @@ var Config = {
     keys: {
         pause: 112,
         shoot: 32,
-        left: 37,
-        leftArrow: 65,
-        right: 39,
-        rightArrow: 68
+        left: 65,
+        leftArrow: 37,
+        right: 68,
+        rightArrow: 39
     },
     player: {
         height: 20,
